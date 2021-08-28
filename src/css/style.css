@@ -124,8 +124,16 @@ section.feed .feed__listPost__post div{
 section.feed .feed__listPost__post h3, section.feed .feed__listPost__post span{
     display: inline-block;
 }
-section.feed .feed__listPost__post h3{}
+section.feed .feed__listPost__post h3{
+    color: #000;
+    font-size: 1rem;
+}
 section.feed .feed__listPost__post span{
     color: #828282;
+    font-size: 0.9rem;
 }
-section.feed .feed__listPost__post p{}
+section.feed .feed__listPost__post p{
+    font-size: 0.9rem;
+    margin-top: 10px;
+    line-height: 1.5;
+}
